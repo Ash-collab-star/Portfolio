@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&  display=swap");
+
+*{
+ margin:0;
+    padding: 0;
+    box-sizig:border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+
+    width:100%;
+    background-color: snow;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content:space-between;
+    background:#26e07f;;
+    display:flex;
+    align-items:center;
+    z-index:100;
+    overflow:hidden;
+    border-radius: 5px;
+
+
+}
+
+.logo{
+ font-size:25px;
+    color:#ededed;
+    text-decoration:none;
+    font-weight:500;
+    margin-left:35px;
+}
+.navbar>a{
+    margin:5px;
+    color:white;
+
+}
+.home{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:10px;
+    display:flex;
+    justify-content:space-evenly;
+    color:black;
+
+}
+.image,.home-content{
+    display: inline-block;
+  width:45%;
+
+
+
+}
+.home-content{
+    border:5px black;
+
+}
+
+img{
+    border:10px yellowgreen;
+
+
+}
+.icons{
+    margin:10px 15px 10px 15px;
+
+ }
+#linkdin,#mail{
+    display:inline-block;
+}
+h1{
+    font-size:45px;
+    color:black;
+    font-family: 'Poppins',sans-serif;
+}
+#about-h1{
+    text-align: center;
+    margin-bottom:50px;
+}
+#about-h3{
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+h3{
+    color:#26e07f;
+    font-size:30px;
+
+}
+.About-Me{
+    margin:auto;
+    width:80%;
+    justify-content:space-between;
+
+}
+
+.awards{
+    psoition:relative;
+    top:-48px;
+    padding-bottom:47px;
+    margin-left:200px;
+}
+article{
+    position:relative;
+    top:0px;
+    margin-left:10px;
+    display:inline-block;
+    width:40%;
+    height:30%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-right:5px;
+    text-align:center;
+}
+footer{
+    text-align:center;
+    margin:20px;
+
+}
+
+
