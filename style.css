@@ -72,8 +72,10 @@ width:50%;
     66% {
       border-color:white;
     }
+
     100% {
-      border-color: #7950F2;
+      border-color:blue;
+    }
     }
   }
 
